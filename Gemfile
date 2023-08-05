@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 gem 'actionview'
 gem 'sprockets', '~>3.0'
+gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 
 gem "websocket-extensions", ">= 0.1.5"
 
@@ -21,7 +22,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'rspec-rails'
-  gem 'pry'
+  gem 'pry-byebug'
   gem 'bootsnap'
 end
 
